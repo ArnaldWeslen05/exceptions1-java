@@ -50,7 +50,7 @@ public class Resevation {
 
 	@Override
 	public String toString() {
-		return "Room"
+		return "Room : "
 				+ roomNuber
 				+" , chaeck-in: "
 				+ sdf.format(checkIn)
